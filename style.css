@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Poppins', sans-serif;
+
+}
+.profile{
+    position: relative;
+    height: 75vw;
+    width: 75vw;
+    border-radius: 5vw;
+    margin-top: 5vw;
+    max-height: 40rem;
+    max-width:40rem ;
+}
+.profile-img{
+    height: 80vw;
+    max-height: 45rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@media (min-width:1200px) {
+    .profile{
+        width: 35vw;
+        height: 35vw;
+    }
+    .profile-img{
+        height: 40vw;
+    }
+}
+@media (min-width:992px) {
+    .profile{
+        width: 40vw;
+        height: 40vw;
+    }
+    .profile-img{
+        height: 45vw;
+    }
+
+}
+@media (min-width:768px) {
+    .profile{
+        width: 50vw;
+        height: 50vw;
+    }
+    .profile-img{
+        height: 55vw;
+    }
+}
+@media (min-width:576px) {
+    .profile{
+        width: 60vw;
+        height: 60vw;
+    }
+    .profile-img{
+        height: 65vw;
+    }
+
+}
+
+
+:root {
+    --main-gradient: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    --mainh1-gradient: linear-gradient(135deg, #1e30f3 0%, #e21e80 70%);
+    --padding: 10px;
+}
+.texth1-gradient{
+    background: var(--mainh1-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-gradient {
+    background: var(--main-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.back_g{
+    background: var(--main-gradient) ;
+}
+h1{
+    font-size: 3rem;
+}
+.text-pink{
+    color: #e21e80;
+}
+.max-wid{
+    width: 52vw;
+}
+@media (min-width:1400px) {
+    .w-md-25{
+        width: 50%;
+    }
+}
+@media (min-width:768px) and (max-width:1400px) {
+    .w-md-25{
+        width: 25%;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .max-wid{
+        max-width: 800px;
+        min-width: 280px;
+    }
+}
+@media (min-width:768px) {
+    .h-med-100{
+        height: 100%;
+    }
+    .rounded-end-md-4{
+        border-radius: 0 15px 15px 0;
+    }
+}
+
+@media (max-width: 767.9px) {
+    .p-ss-0{
+        padding: 0;
+    }
+    .mar0{
+        margin: 0;
+    }
+    .mb-ss-1{
+        margin-bottom: 1rem;
+    }
+    .textcen{
+        text-align: center;
+    }
+    .rounded-bottom-sm-4{
+        border-radius: 0 0 15px 15px;
+    }
+    .w-md-25{
+        width: 100%;
+    }
+}
